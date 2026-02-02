@@ -1,0 +1,93 @@
+# ===========================
+# Laravel Backend
+# ===========================
+
+# Dependencies
+backend/vendor/
+backend/node_modules/
+
+# Environment & Config
+backend/.env
+backend/.env.backup
+backend/.env.production
+
+# Storage & Cache
+backend/storage/*.key
+backend/storage/app/*
+!backend/storage/app/.gitkeep
+backend/storage/framework/cache/*
+!backend/storage/framework/cache/.gitkeep
+backend/storage/framework/sessions/*
+!backend/storage/framework/sessions/.gitkeep
+backend/storage/framework/views/*
+!backend/storage/framework/views/.gitkeep
+backend/storage/logs/*
+!backend/storage/logs/.gitkeep
+
+# Bootstrap Cache
+backend/bootstrap/cache/*
+!backend/bootstrap/cache/.gitkeep
+
+# Laravel IDE Helper
+backend/_ide_helper.php
+backend/_ide_helper_models.php
+backend/.phpstorm.meta.php
+
+# ===========================
+# React Frontend
+# ===========================
+
+# Dependencies
+frontend/node_modules/
+
+# Build Output
+frontend/dist/
+frontend/build/
+
+# Environment
+frontend/.env
+frontend/.env.local
+frontend/.env.production
+frontend/.env.development
+
+# Logs
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/pnpm-debug.log*
+frontend/lerna-debug.log*
+
+# Editor
+frontend/.vscode/*
+!frontend/.vscode/extensions.json
+frontend/.idea/
+frontend/.DS_Store
+frontend/*.suo
+frontend/*.ntvs*
+frontend/*.njsproj
+frontend/*.sln
+frontend/*.sw?
+
+# ===========================
+# General
+# ===========================
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+npm-debug.log*
+
+# Deployment
+deployment/
+*.zip
+*.tar.gz
